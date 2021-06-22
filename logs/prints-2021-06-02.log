@@ -1,0 +1,8 @@
+21:06:18.259 [main] INFO  resources.base - Navigated to homepage
+21:06:43.681 [main] INFO  resources.base - Login button is clicked
+21:06:43.936 [main] INFO  resources.base - Username is enterd
+21:06:44.061 [main] INFO  resources.base - Password is enterd
+21:06:44.594 [main] INFO  resources.base - Submit button is pressed
+21:06:47.479 [main] INFO  resources.base - Navigated to homepage
+21:06:53.415 [main] INFO  resources.base - driver is initialized
+21:06:58.683 [main] INFO  resources.base - navigated to browser

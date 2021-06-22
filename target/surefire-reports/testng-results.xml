@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-03T23:27:41 IST" name="Suite" finished-at="2021-06-03T23:28:33 IST" duration-ms="51894">
+    <groups>
+    </groups>
+    <test started-at="2021-06-03T23:27:41 IST" name="title checks" finished-at="2021-06-03T23:28:17 IST" duration-ms="36144">
+      <class name="testPackage.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testPackage.validateTitle@539d019]" started-at="2021-06-03T23:27:41 IST" name="initialize" finished-at="2021-06-03T23:28:15 IST" duration-ms="33441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePage()[pri:0, instance:testPackage.validateTitle@539d019]" started-at="2021-06-03T23:28:15 IST" name="basePage" finished-at="2021-06-03T23:28:15 IST" duration-ms="78" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Featured Courses23] but found [Featured Courses]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Featured Courses23] but found [Featured Courses]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testPackage.validateTitle.basePage(validateTitle.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePage -->
+        <test-method is-config="true" signature="browseClose()[pri:0, instance:testPackage.validateTitle@539d019]" started-at="2021-06-03T23:28:15 IST" name="browseClose" finished-at="2021-06-03T23:28:17 IST" duration-ms="2303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseClose -->
+      </class> <!-- testPackage.validateTitle -->
+    </test> <!-- title checks -->
+    <test started-at="2021-06-03T23:27:41 IST" name="HomePagr chek" finished-at="2021-06-03T23:28:33 IST" duration-ms="51894">
+      <class name="testPackage.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testPackage.HomePage@64bce832]" started-at="2021-06-03T23:27:41 IST" name="initialize" finished-at="2021-06-03T23:27:47 IST" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePage(java.lang.String,java.lang.String)[pri:0, instance:testPackage.HomePage@64bce832]" started-at="2021-06-03T23:27:48 IST" name="basePage" data-provider="getData" finished-at="2021-06-03T23:28:26 IST" duration-ms="37823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unrestricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePage -->
+        <test-method signature="basePage(java.lang.String,java.lang.String)[pri:0, instance:testPackage.HomePage@64bce832]" started-at="2021-06-03T23:28:26 IST" name="basePage" data-provider="getData" finished-at="2021-06-03T23:28:33 IST" duration-ms="6489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePage -->
+        <test-method is-config="true" signature="browseClose()[pri:0, instance:testPackage.HomePage@64bce832]" started-at="2021-06-03T23:28:33 IST" name="browseClose" finished-at="2021-06-03T23:28:33 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseClose -->
+      </class> <!-- testPackage.HomePage -->
+    </test> <!-- HomePagr chek -->
+  </suite> <!-- Suite -->
+</testng-results>

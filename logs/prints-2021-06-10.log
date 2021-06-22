@@ -1,0 +1,7 @@
+15:36:31.777 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+15:36:45.272 [TestNG-tests-1] INFO  resources.base - Login button is clicked
+15:38:07.547 [TestNG-tests-1] INFO  resources.base - driver is initialized
+15:38:07.547 [TestNG-tests-2] INFO  resources.base - driver is initialized
+15:38:21.496 [TestNG-tests-2] INFO  resources.base - navigated to browser
+15:38:29.034 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+15:38:51.690 [TestNG-tests-1] INFO  resources.base - Login button is clicked

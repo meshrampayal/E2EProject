@@ -1,0 +1,5 @@
+15:39:07.728 [TestNG-tests-1] INFO  resources.base - Navigated to homepage
+15:39:26.048 [TestNG-tests-1] INFO  resources.base - Login button is clicked
+15:39:26.335 [TestNG-tests-1] INFO  resources.base - Username is enterd
+15:39:26.517 [TestNG-tests-1] INFO  resources.base - Password is enterd
+15:39:26.810 [TestNG-tests-1] INFO  resources.base - Submit button is pressed
